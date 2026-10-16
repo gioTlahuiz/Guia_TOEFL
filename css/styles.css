@@ -1,0 +1,20 @@
+body{background:#f6f8fc;color:#172033;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+.app-navbar{background:#101a33}
+.hero-section{background:linear-gradient(135deg,#172554,#0f766e);color:#fff;padding:70px 0}
+.hero-badge{background:rgba(255,255,255,.15);padding:.6rem .9rem}
+.score-card,.panel,.plan-card{background:#fff;border:1px solid #e7eaf1;border-radius:18px;padding:24px;box-shadow:0 8px 30px rgba(16,24,40,.06)}
+.score-card{color:#172033}.score-number{font-size:4rem;font-weight:800;line-height:1.1;margin:.5rem 0}
+.section-heading{margin-bottom:24px}.section-heading>span{font-size:.78rem;font-weight:800;color:#0f766e;letter-spacing:.12em}.section-heading h2{font-weight:800;margin:.35rem 0}.section-heading p{color:#667085;max-width:720px}
+.skill-card{height:100%;cursor:pointer;transition:.2s;border:1px solid #e7eaf1;border-radius:18px;background:#fff;padding:24px;box-shadow:0 8px 30px rgba(16,24,40,.05)}
+.skill-card:hover{transform:translateY(-4px);box-shadow:0 14px 35px rgba(16,24,40,.1)}
+.icon-box{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;background:#eef2ff;color:#3730a3;font-size:1.4rem}
+.skill-card h4{margin-top:18px;font-weight:750}.skill-card p{color:#667085;min-height:48px}
+.badge-soft{background:#eef2ff;color:#3730a3}
+.plan-card b{color:#0f766e}.plan-card h5{margin-top:8px;font-weight:750}.plan-card p{color:#667085;margin:0}
+.bar-row{margin:18px 0}.bar-label{display:flex;justify-content:space-between;margin-bottom:7px;font-size:.9rem}.bar{height:10px;background:#edf0f5;border-radius:99px;overflow:hidden}.bar>div{height:100%;border-radius:99px;background:#0f766e;transition:width .5s}
+.option{display:block;border:1px solid #dfe3eb;border-radius:12px;padding:15px;margin:10px 0;cursor:pointer;transition:.15s;background:#fff}.option:hover{border-color:#6366f1;background:#f8f8ff}.option input{margin-right:10px}
+.result-hero{background:#eefcf8;border-radius:16px;padding:25px}.correct{border-color:#16a34a!important;background:#f0fdf4!important}.incorrect{border-color:#dc2626!important;background:#fef2f2!important}
+footer{background:#101a33;color:#cbd5e1}
+@media(max-width:576px){.hero-section{padding:45px 0}.score-number{font-size:3rem}}
+
+.option.correct{border:2px solid #16a34a;background:#ecfdf5}.option.incorrect{border:2px solid #dc2626;background:#fef2f2}
