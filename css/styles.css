@@ -18,3 +18,34 @@ footer{background:#101a33;color:#cbd5e1}
 @media(max-width:576px){.hero-section{padding:45px 0}.score-number{font-size:3rem}}
 
 .option.correct{border:2px solid #16a34a;background:#ecfdf5}.option.incorrect{border:2px solid #dc2626;background:#fef2f2}
+
+/* ENALLT mock exams */
+.enallt-toolbar{position:sticky;top:66px;z-index:10;background:#fff;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;padding:16px;border:1px solid #dbe5e9;border-radius:14px;margin-bottom:16px;box-shadow:0 6px 18px #0001}.enallt-clock{font-size:1.35rem;font-weight:800;color:#0f766e;font-variant-numeric:tabular-nums}.enallt-unit{background:#fff;border:1px solid #e2e8f0;border-radius:16px;padding:22px;margin-bottom:22px}.enallt-unit h4{font-weight:800}.enallt-text{font-size:1.08rem;line-height:1.9;background:#f1f7f8;padding:20px;border-radius:12px;white-space:pre-line;margin:14px 0 22px}.enallt-question{padding:18px 0;border-top:1px solid #e2e8f0}.enallt-answer{display:flex;gap:12px;align-items:flex-start;border:1px solid #dce3e8;padding:12px;border-radius:10px;margin:8px 0;cursor:pointer}.enallt-answer:has(input:checked){background:#ecfdf5;border-color:#0f766e}.enallt-answer input{margin-top:5px;accent-color:#0f766e}.enallt-review{border-bottom:1px solid #e5e7eb;padding:12px}.enallt-review summary{cursor:pointer;font-weight:600}@media(max-width:600px){.enallt-toolbar{top:55px}.enallt-unit{padding:14px}}
+
+/* ENALLT split-screen examination interface */
+.enallt-unit{padding:0;overflow:hidden;border:1px solid #d7e4e5;box-shadow:0 8px 26px rgba(16,50,54,.06)}
+.enallt-unit-heading{padding:22px 26px 16px;background:#fff}
+.enallt-unit-heading h4{margin:6px 0;font-size:1.24rem}
+.enallt-unit-heading p{margin:0;color:#64748b;font-size:.88rem}
+.enallt-type{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;font-weight:800;color:#087d7a}
+.enallt-split{display:grid;grid-template-columns:1fr 1fr;min-height:480px;border-top:1px solid #d7e4e5}
+.enallt-reading-pane{background:#eaf5f5;border-right:8px solid #087e80;padding:20px 24px 30px;min-width:0}
+.enallt-questions-pane{background:#f8fbfb;padding:20px 26px 30px;min-width:0}
+.enallt-pane-label{font-size:.72rem;letter-spacing:.11em;color:#417476;font-weight:800;margin-bottom:22px}
+.enallt-reading-content{font-size:1.22rem;line-height:2.2;color:#25363a;white-space:pre-line;overflow-wrap:anywhere}
+.enallt-question{border:0;border-bottom:1px solid #d7e1e3;padding:18px 0 24px;margin:0;min-width:0;width:100%}
+.enallt-question:first-of-type{padding-top:0}
+.enallt-question-title{float:none;width:100%;font-size:1.03rem;line-height:1.5;font-weight:650;color:#28393e;margin:0 0 12px}
+.enallt-question-number{font-weight:800;color:#086d70;margin-right:6px}
+.enallt-options{display:grid;gap:3px}
+.enallt-answer{border:1px solid transparent;background:transparent;border-radius:9px;padding:10px 12px;margin:0;align-items:center;font-size:1.05rem;color:#28343c}
+.enallt-answer:hover{background:#e8f3f2;border-color:#c9e2e0}
+.enallt-answer:has(input:checked){background:#d6f0ec;border-color:#5daaa3}
+.enallt-answer input{margin:0 4px 0 0;width:18px;height:18px;flex-shrink:0}
+.enallt-option-letter{min-width:26px;font-weight:650}
+.enallt-blank{display:inline-flex;align-items:baseline;gap:5px;vertical-align:baseline;min-width:110px;max-width:100%;border-bottom:2px solid #f48b31;color:#be5c17;padding:0 3px;line-height:1.6;white-space:normal;transition:background .2s}
+.enallt-blank-number{font-size:.7em;font-weight:800;color:#e36c17}
+.enallt-blank-value{font-weight:750;overflow-wrap:anywhere}
+.enallt-blank.is-filled{background:#d4f3e8;border-bottom-color:#08836b;color:#075d52;border-radius:5px 5px 0 0}
+.enallt-toolbar-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+@media(max-width:800px){.enallt-split{grid-template-columns:1fr}.enallt-reading-pane{border-right:0;border-bottom:7px solid #087e80;padding:20px}.enallt-questions-pane{padding:20px}.enallt-reading-content{font-size:1.08rem;line-height:2}.enallt-unit-heading{padding:18px 20px}.enallt-toolbar{top:54px}}
